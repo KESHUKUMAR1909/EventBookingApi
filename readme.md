@@ -40,8 +40,8 @@ This is a backend REST API for an Event Management System built using Node.js, E
 
 1. Clone the repository
 
-   git clone https://github.com/yourusername/event-management-api.git
-   cd event-management-api
+   git clone https://github.com/KESHUKUMAR1909/EventBookingApi
+   
 
 2. Install dependencies
 
