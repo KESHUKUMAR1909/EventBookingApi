@@ -40,6 +40,30 @@ This is a backend REST API for an Event Management System built using Node.js, E
 
 1. Clone the repository
 
-```bash
-git clone https://github.com/yourusername/event-management-api.git
-cd event-management-api
+   git clone https://github.com/yourusername/event-management-api.git
+   cd event-management-api
+
+2. Install dependencies
+
+   npm install
+
+3. Create a `.env` file in the root directory with the following content:
+
+   MONGO_URL=mongodb://localhost:27017/eventDB
+
+4. Start the server
+
+   node index.js
+
+Server runs at: http://localhost:3000
+
+## API Endpoints and Examples
+
+### POST /api/v1/user/register
+
+**Request**
+```json
+{
+  "name": "Keshu Kumar",
+  "username": "keshu123"
+}
